@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".EventListing" >
+
+    <item android:id="@+id/action_tracked_events"
+        android:title="@string/tracked_events"
+        android:orderInCategory="100" />
+
+</menu>

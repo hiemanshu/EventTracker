@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Event Tracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login_name_text">To get started, login with your first name</string>
+    <string name="login_button">Continue</string>
+    <string name="title_activity_event_view">EventViewActivity</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="title_activity_tracked_events">Events I Follow</string>
+    <string name="tracked_events">Events I Follow</string>
+
+</resources>
