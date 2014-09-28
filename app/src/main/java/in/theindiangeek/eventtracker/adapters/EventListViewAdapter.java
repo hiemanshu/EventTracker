@@ -101,4 +101,17 @@ public class EventListViewAdapter extends BaseAdapter {
         return mEvents.get(position).getId();
     }
 
+    public void stopTrackingEvent(int position) {
+        String userName = PreferenceManager
+                .getDefaultSharedPreferences(mContext).getString("user_name", null);
+        int eventId = mEvents.get(position).getId();
+        try {
+            mDatastore.open();
+            mDatastore.stopTrackingEvent(userName, eventId);
+            mDatastore.close();
+            mEvents.remove(position);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 }
